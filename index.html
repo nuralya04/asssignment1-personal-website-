@@ -4,8 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loh Koh Wong</title>
+  
+  <!-- Link to the external CSS -->
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add styles to make anchor tags look like buttons */
+    nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #45a049;
+    }
+
+    nav a:active {
+      background-color: #388e3c;
+    }
+  </style>
 </head>
+
 <body>
 
   <!-- HEADER -->
@@ -13,17 +38,18 @@
     <div class="logo">
       LOH KOH WONG
     </div>
+
     <nav>
-      <a href="#">HOME</a>
-      <a href="#">ABOUT ME</a>
-      <a href="#">CAREERS</a>
-      <a href="#">GALLERY</a>
+      <a href="#home">HOME</a>
+      <a href="#about">ABOUT ME</a>
+      <a href="#careers">CAREERS</a>
+      <a href="#gallery">GALLERY</a>
     </nav>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <button class="my-button">Click Me!</button>
+    <!-- Optional content inside hero section -->
   </section>
 
 </body>
